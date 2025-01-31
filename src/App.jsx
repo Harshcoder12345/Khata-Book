@@ -15,10 +15,12 @@ const App = () => {
 
 <TransactionProvider>
 <Navbar/>
-<div className="container">
+<div className="container-form  form-color pt-5 ">
+<div className="container  ">
 <Form  />
 <Dashboard />
 <Listgroup />
+</div>
 </div>
 </TransactionProvider>
 

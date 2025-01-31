@@ -1,12 +1,21 @@
 
 
 .color-blue {
-    background-color: #2680EB;
+    background-color : #493D9E;
 }
 
 .color-green {
-  background-color: #275018;
+  background-color: #79ea86;
 }
 .color-red {
-background-color: #F63131;
+background-color: #e75757;
+}
+
+.list-color {
+  background-color: #B2A5FF;
+}
+
+.form-color{
+  background-color: #FFF2AF;
+  min-height: 100vh;
 }

@@ -27,7 +27,7 @@ const Listiten = ({transaction}) => {
   }
   
   return (
-    <li className='list-group-item'>
+    <li className='list-group-item list-color'>
     <p>Text: {transaction.text}</p>
     <p>Amount:{transaction.amount}</p>
     {/* <p>id:{transaction.id}</p> */}

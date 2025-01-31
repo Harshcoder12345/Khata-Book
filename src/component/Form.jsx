@@ -38,7 +38,7 @@ setAmount(edit.transaction.amount)
 }, [edit])
 
   return (
-    <form  onSubmit={(e)=>handleSubmit(e)}>
+    <form  onSubmit={(e)=>handleSubmit(e)} >
    
     <input type="text"  placeholder="Enter Transaction Name" className='form-control my-2' onChange={(e)=>setText(e.target.value)}  value = {text}/>
     <input type="number" placeholder='amount' className='form-control'  onChange={(e)=>setAmount(e.target.value)} value = {amount} />
